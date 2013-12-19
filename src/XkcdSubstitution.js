@@ -91,6 +91,13 @@ XkcdSubstitution.prototype.transformText = function(text) {
   text = text.replace(/\bSenators\b/g, "Elf-Lords");
   text = text.replace(/\bSENATORS\b/g, "ELF-LORDS");
 
+  text = text.replace(/\brepresentative\b/g, "dwarf-lord");
+  text = text.replace(/\bRepresentative\b/g, "Dwarf-Lord");
+  text = text.replace(/\bREPRESENTATIVE\b/g, "DWARF-LORD");
+  text = text.replace(/\brepresentatives\b/g, "dwarf-lords");
+  text = text.replace(/\bRepresentatives\b/g, "Dwarf-Lords");
+  text = text.replace(/\bREPRESENTATIVES\b/g, "DWARF-LORDS");
+
   text = text.replace(/\bcar\b/g, "cat");
   text = text.replace(/\bcars\b/g, "cats");
   text = text.replace(/\bCar\b/g, "Cat");
@@ -98,12 +105,12 @@ XkcdSubstitution.prototype.transformText = function(text) {
   text = text.replace(/\bCAR\b/g, "CAT");
   text = text.replace(/\bCARS\b/g, "CATS");
 
-  text = text.replace(/\belection\b/g, "eating contest");
-  text = text.replace(/\bElection\b/g, "Eating Contest");
-  text = text.replace(/\bELECTION\b/g, "EATING CONTEST");
-  text = text.replace(/\belections\b/g, "eating contests");
-  text = text.replace(/\bElections\b/g, "Eating Contests");
-  text = text.replace(/\bELECTIONS\b/g, "EATING CONTESTS");
+  text = text.replace(/\belection\b/g, "pokébattle");
+  text = text.replace(/\bElection\b/g, "Pokébattle");
+  text = text.replace(/\bELECTION\b/g, "POKÉBATTLE");
+  text = text.replace(/\belections\b/g, "pokébattles");
+  text = text.replace(/\bElections\b/g, "Pokébattles");
+  text = text.replace(/\bELECTIONS\b/g, "POKÉBATTLES");
 
   text = text.replace(/congressional leaders/g, "river spirits");
   text = text.replace(/Congressional leaders/g, "River spirits");
@@ -117,6 +124,20 @@ XkcdSubstitution.prototype.transformText = function(text) {
   text = text.replace(/could not be reached for comment/g, "is guilty and everyone knows it");
   text = text.replace(/Could Not Be Reached For Comment/g, "Is Guilty And Everyone Knows It");
   text = text.replace(/COULD NOT BE REACHED FOR COMMENT/g, "IS GUILTY AND EVERYONE KNOWS IT");
+
+  text = text.replace(/\bgun\b/g, "magic wand");
+  text = text.replace(/\bGun\b/g, "Magic Wand");
+  text = text.replace(/\bGUN\b/g, "MAGIC WAND");
+  text = text.replace(/\bguns\b/g, "magic wands");
+  text = text.replace(/\bGuns\b/g, "Magic Wands");
+  text = text.replace(/\bGUNS\b/g, "MAGIC WANDS");
+
+  text = text.replace(/\bsoldier\b/g, "wizard");
+  text = text.replace(/\bSoldier\b/g, "Wizard");
+  text = text.replace(/\bSOLDIER\b/g, "WIZARD");
+  text = text.replace(/\bsoldiers\b/g, "wizards");
+  text = text.replace(/\bSoldiers\b/g, "Wizards");
+  text = text.replace(/\bSOLDIERS\b/g, "WIZARDS");
 
   return text;
 };
