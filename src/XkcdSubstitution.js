@@ -132,12 +132,40 @@ XkcdSubstitution.prototype.transformText = function(text) {
   text = text.replace(/\bGuns\b/g, "Magic Wands");
   text = text.replace(/\bGUNS\b/g, "MAGIC WANDS");
 
-  text = text.replace(/\bsoldier\b/g, "wizard");
-  text = text.replace(/\bSoldier\b/g, "Wizard");
-  text = text.replace(/\bSOLDIER\b/g, "WIZARD");
-  text = text.replace(/\bsoldiers\b/g, "wizards");
-  text = text.replace(/\bSoldiers\b/g, "Wizards");
-  text = text.replace(/\bSOLDIERS\b/g, "WIZARDS");
+  text = text.replace(/\bsoldier\b/g, "warlock");
+  text = text.replace(/\bSoldier\b/g, "Warlock");
+  text = text.replace(/\bSOLDIER\b/g, "WARLOCK");
+  text = text.replace(/\bsoldiers\b/g, "warlocks");
+  text = text.replace(/\bSoldiers\b/g, "Warlocks");
+  text = text.replace(/\bSOLDIERS\b/g, "WARLOCKS");
+
+  text = text.replace(/\bfederal judge\b/g, "very powerful wizard");
+  text = text.replace(/\bfederal judges\b/g, "very powerful wizards");
+  text = text.replace(/\bFederal judge\b/g, "Very powerful wizard");
+  text = text.replace(/\bFederal judges\b/g, "very powerful wizards");
+  text = text.replace(/\bFEDERAL JUDGE\b/g, "VERY POWERFUL WIZARD");
+  text = text.replace(/\bFEDERAL JUDGES\b/g, "VERY POWERFUL WIZARDS");
+
+  text = text.replace(/\bsupreme court\b/g, "space wizard");
+  text = text.replace(/\bsupreme courts\b/g, "space wizards");
+  text = text.replace(/\bSupreme Court\b/g, "Space Wizard");
+  text = text.replace(/\bSupreme Courts\b/g, "Space Wizards");
+  text = text.replace(/\bSUPREME COURT\b/g, "SPACE WIZARD");
+  text = text.replace(/\bSUPREME COURTS\b/g, "SPACE WIZARDS");
+
+  text = text.replace(/\bentrepreneur\b/g, "ultra-gnome");
+  text = text.replace(/\bentrepreneurs\b/g, "ultra-gnomes");
+  text = text.replace(/\bEntrepreneur\b/g, "Ultra-Gnome");
+  text = text.replace(/\bEntrepreneurs\b/g, "Ultra-Gnomes");
+  text = text.replace(/\bENTREPRENEUR\b/g, "ULTRA-GNOME");
+  text = text.replace(/\bENTREPRENEURS\b/g, "ULTRA-GNOMES");
+
+  text = text.replace(/\bhacker\b/g, "unicorn princess");
+  text = text.replace(/\bhackers\b/g, "unicorn princesses");
+  text = text.replace(/\bHacker\b/g, "Unicorn princess");
+  text = text.replace(/\bHackers\b/g, "Unicorn princesses");
+  text = text.replace(/\bHACKER\b/g, "UNICORN PRINCESS");
+  text = text.replace(/\bHACKERS\b/g, "UNICORN PRINCESSES");
 
   return text;
 };
