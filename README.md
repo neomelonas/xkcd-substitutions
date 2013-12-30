@@ -1,7 +1,7 @@
 XKCD Substitutions
 ==================
 
-[![Build Status](https://secure.travis-ci.org/h2s/xkcd-substitutions.png)](http://travis-ci.org/h2s/xkcd-substitutions)
+[![Build Status](https://secure.travis-ci.org/neomelonas/xkcd-substitutions.png)](http://travis-ci.org/neomelonas/xkcd-substitutions)
 
 Chrome extension implementing [XKCD #1288](http://xkcd.com/1288/).
 

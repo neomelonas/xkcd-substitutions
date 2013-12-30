@@ -203,19 +203,19 @@ describe('XkcdSubstitution', function() {
     it("converts 'election'", function() {
       substitution
         .transformText("Australian election enters final stage")
-        .should.equal("Australian eating contest enters final stage");
+        .should.equal("Australian pokébattle enters final stage");
     });
 
     it("converts 'Elections'", function() {
       substitution
         .transformText("Scottish Health Board Elections Abandoned")
-        .should.equal("Scottish Health Board Eating Contests Abandoned");
+        .should.equal("Scottish Health Board Pokébattles Abandoned");
     });
 
     it("converts 'ELECTIONS'", function() {
       substitution
         .transformText("SCOTTISH HEALTH BOARD ELECTIONS ABANDONED")
-        .should.equal("SCOTTISH HEALTH BOARD EATING CONTESTS ABANDONED");
+        .should.equal("SCOTTISH HEALTH BOARD POKÉBATTLES ABANDONED");
     });
 
     it("converts 'Congressional leaders'", function() {
