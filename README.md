@@ -1,9 +1,9 @@
 XKCD Substitutions
 ==================
 
-[![Build Status](https://secure.travis-ci.org/h2s/xkcd-substitutions.png)](http://travis-ci.org/h2s/xkcd-substitutions)
-[![Coverage Status](https://coveralls.io/repos/h2s/xkcd-substitutions/badge.png?branch=master)](https://coveralls.io/r/h2s/xkcd-substitutions?branch=master)
-[![Code Climate](https://codeclimate.com/github/h2s/xkcd-substitutions.png)](https://codeclimate.com/github/h2s/xkcd-substitutions)
+[![Build Status](https://secure.travis-ci.org/urael/xkcd-substitutions.png)](http://travis-ci.org/urael/xkcd-substitutions)
+[![Coverage Status](https://coveralls.io/repos/urael/xkcd-substitutions/badge.png?branch=master)](https://coveralls.io/r/urael/xkcd-substitutions?branch=master)
+[![Code Climate](https://codeclimate.com/github/urael/xkcd-substitutions.png)](https://codeclimate.com/github/urael/xkcd-substitutions)
 
 Chrome extension implementing [XKCD #1288](http://xkcd.com/1288/).
 
