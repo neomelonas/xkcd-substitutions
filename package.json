@@ -1,15 +1,25 @@
 {
   "name"          : "xkcd-substitutions",
   "description"   : "Chome Extension Implementing XKCD #1288",
-  "url"           : "https://github.com/h2s/xkcd-substitutions",
+  "url"           : "https://github.com/hnrysmth/xkcd-substitutions",
   "keywords"      : ["xkcd"],
   "author"        : "Henry Smith <henry@henrysmith.org>",
   "devDependencies": {
+    "coveralls": "2.6.1",
+    "jquery": "1.8.3",
+    "jscoverage": "0.3.8",
+    "jsdom": "0.8.10",
     "mocha": "1.14.0",
+    "mocha-lcov-reporter": "0.0.1",
     "should": "2.0.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/h2s/xkcd-substitutions.git"
+    "url": "https://github.com/hnrysmth/xkcd-substitutions.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "pretest": "jscoverage src tmp/src-cov",
+    "posttest": "COVERAGE=true mocha -R mocha-lcov-reporter | coveralls"
   }
 }

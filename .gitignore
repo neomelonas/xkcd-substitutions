@@ -4,5 +4,5 @@ src.pem
 src.zip
 node_modules/
 npm-debug.log
-XKCDSubs-oxi.crx
-*.sublime-*
+
+tmp/

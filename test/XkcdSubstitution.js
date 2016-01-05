@@ -1,12 +1,40 @@
 var assert = require('assert');
 var should = require('should');
+var $ = require('jquery');
+var jsdom = require('jsdom');
 var XkcdSubstitution = require('../src/XkcdSubstitution.js');
+
+if (process.env.COVERAGE) {
+  XkcdSubstitution = require('../tmp/src-cov/XkcdSubstitution.js');
+}
 
 describe('XkcdSubstitution', function() {
 
   var substitution = new XkcdSubstitution;
 
-  describe("transformText", function() {
+  describe("#traverse", function () {
+
+    var document;
+
+    beforeEach(function (done) {
+      jsdom.env(
+        '<h1>Electric Toothbrush</h1>',
+        [],
+        function (errors, window) {
+          document = window.document;
+          substitution.traverse(document);
+          done();
+        }
+      );
+    });
+
+    it("transforms text nodes", function () {
+      $(document).find('h1').text().should.equal('Atomic Toothbrush');
+    });
+
+  });
+
+  describe("#transformText", function() {
 
     it("converts 'witness'", function() {
       substitution
