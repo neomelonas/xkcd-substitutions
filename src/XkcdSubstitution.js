@@ -167,6 +167,93 @@ XkcdSubstitution.prototype.transformText = function(text) {
   text = text.replace(/\bHACKER\b/g, "UNICORN PRINCESS");
   text = text.replace(/\bHACKERS\b/g, "UNICORN PRINCESSES");
 
+  text = text.replace(/\bdebate\b/g,  "dance-off");
+  text = text.replace(/\bdebates\b/g, "dance-offs");
+  text = text.replace(/\bDebate\b/g,  "Dance-off");
+  text = text.replace(/\bDebates\b/g, "Dance-offs");
+  text = text.replace(/\bDEBATE\b/g,  "DANCE-OFF");
+  text = text.replace(/\bDEBATES\b/g, "DANCE-OFFS");
+
+  text = text.replace(/\bself driving\b/g,  "uncontrollably swerving");
+  text = text.replace(/\bSelf driving\b/g,  "Uncontrollably swerving");
+  text = text.replace(/\bSELF DRIVING\b/g,  "UNCONTROLLABLY SWERVING");
+
+  text = text.replace(/\bpoll\b/g,  "psychic reading");
+  text = text.replace(/\bpolls\b/g, "psychic readings");
+  text = text.replace(/\bPoll\b/g,  "Psychic reading");
+  text = text.replace(/\bPolls\b/g, "Psychic readings");
+  text = text.replace(/\bPOLL\b/g,  "PSYCHIC READING");
+  text = text.replace(/\bPOLLS\b/g, "PSYCHIC READINGS");
+
+  text = text.replace(/\bcandidate\b/g,  "airbender");
+  text = text.replace(/\bcandidates\b/g, "airbenders");
+  text = text.replace(/\bCandidate\b/g,  "Airbender");
+  text = text.replace(/\bCandidates\b/g, "Airbenders");
+  text = text.replace(/\bCANDIDATE\b/g,  "AIRBENDER");
+  text = text.replace(/\bCANDIDATES\b/g, "AIRBENDERS");
+
+  text = text.replace(/\bdrone\b/g,  "dog");
+  text = text.replace(/\bdrones\b/g, "dogs");
+  text = text.replace(/\bDrone\b/g,  "Dog");
+  text = text.replace(/\bDrones\b/g, "Dogs");
+  text = text.replace(/\bDRONE\b/g,  "DOG");
+  text = text.replace(/\bDRONES\b/g, "DOGS");
+
+  text = text.replace(/\bvows to\b/g,  "probably won't");
+  text = text.replace(/\bVows to\b/g,  "Probably won't");
+  text = text.replace(/\bVOWS TO\b/g,  "PROBABLY WON'T");
+
+  text = text.replace(/\bat large\b/g,  "very large");
+  text = text.replace(/\bAt large\b/g,  "Very large");
+  text = text.replace(/\bAT LARGE\b/g,  "VERY LARGE");
+
+  text = text.replace(/\bsuccessfully\b/g,  "suddenly");
+  text = text.replace(/\bSuccessfully\b/g,  "Suddenly");
+  text = text.replace(/\bSUCCESSFULLY\b/g,  "SUDDENLY");
+
+  text = text.replace(/\bexpands\b/g,  "physically expands");
+  text = text.replace(/\bExpands\b/g,  "Physically expands");
+  text = text.replace(/\bEXPANDS\b/g,  "PHYSICALLY EXPANDS");
+
+  text = text.replace(/\b(first|second|third)( |-)?degree\b/g,  "friggin' awful");
+  text = text.replace(/\b(First|Second|Third)( |-)?degree\b/g,  "Friggin' awful");
+  text = text.replace(/\b(FIRST|SECOND|THIRD)( |-)?DEGREE\b/g,  "FRIGGIN' AWFUL");
+
+  text = text.replace(/\ban unknown number\b/g,  "like hundreds");
+  text = text.replace(/\bAn unknown number\b/g,  "Like hundreds");
+  text = text.replace(/\bAN UNKNOWN NUMBER\b/g,  "LIKE HUNDREDS");
+
+  text = text.replace(/\bfront runner\b/g,   "blade runner");
+  text = text.replace(/\bfront runners\b/g,  "blade runners");
+  text = text.replace(/\bFront runner\b/g,   "Blade runner");
+  text = text.replace(/\bFront runners\b/g,  "Blade runners");
+  text = text.replace(/\bFRONT RUNNER\b/g,   "BLADE RUNNER");
+  text = text.replace(/\bFRONT RUNNERS\b/g,  "PHYSICALLY EXPANDS");
+
+  text = text.replace(/\bglobal\b/g,  "spherical");
+  text = text.replace(/\bGlobal\b/g,  "Spherical");
+  text = text.replace(/\bGLOBAL\b/g,  "SPHERICAL");
+
+  text = text.replace(/\byears\b/g,  "minutes");
+  text = text.replace(/\bYears\b/g,  "Minutes");
+  text = text.replace(/\bYEARS\b/g,  "MINUTES");
+
+  text = text.replace(/\bminutes\b/g,  "years");
+  text = text.replace(/\bMinutes\b/g,  "Years");
+  text = text.replace(/\bMINUTES\b/g,  "YEARS");
+
+  text = text.replace(/\bno indication\b/g,  "lots of signs");
+  text = text.replace(/\bNo indication\b/g,  "Lots of signs");
+  text = text.replace(/\bNO INDICATION\b/g,  "LOTS OF SIGNS");
+
+  text = text.replace(/\burged restraint by\b/g,  "drunkenly egged on");
+  text = text.replace(/\bUrged restraint by\b/g,  "Drunkenly egged on");
+  text = text.replace(/\bURGED RESTRAINT BY\b/g,  "DRUNKENLY EGGED ON");
+ 
+  text = text.replace(/\bhorsepower\b/g,  "tons of horsemeat");
+  text = text.replace(/\bHorsepower\b/g,  "Tons of horsemeat");
+  text = text.replace(/\bHORSEPOWER\b/g,  "TONS OF HORSEMEAT");
+
   return text;
 };
 
