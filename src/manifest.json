@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "XKCD Substitutions",
-  "version": "1.8.1",
-  "description": "Based on XKCD #1288",
+  "version": "1.9.1",
+  "description": "Based on XKCDs #1288 & #1625",
   "browser_action": {
     "default_icon": {
       "19": "icons/19.png",
